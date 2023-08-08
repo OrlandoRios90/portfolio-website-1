@@ -1,12 +1,5 @@
 import { Box, Image, Stack, Card, CardBody, Heading, Text, Divider, Button, } from "@chakra-ui/react"
-import {Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  ModalCloseButton,
-  useDisclosure} from "@chakra-ui/react"
+
 
 export const SkillsSection = () => {
     const skills = [
@@ -44,12 +37,12 @@ export const SkillsSection = () => {
         }
       }
     
-      const { isOpen, onOpen, onClose } = useDisclosure()
+      
     
 
       return (
         <Box
-        gridGap={1}
+        bg= "#faf8f7"
         >
         <Heading as="h1" id="skills-title-section">
         Featured Skills

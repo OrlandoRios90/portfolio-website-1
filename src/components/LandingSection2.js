@@ -1,4 +1,4 @@
-import { Avatar, VStack, Heading, Text, Button } from "@chakra-ui/react"
+import { VStack, Heading, Text, Button } from "@chakra-ui/react"
 
 export const LandingSection2 = () => {
 
@@ -17,7 +17,9 @@ export const LandingSection2 = () => {
                     <Text fontSize='xl' color="white">Welcome to my website</Text>
                     <Text fontSize='xl' color="white">I'm a front-end developer</Text>
                     <Text fontSize='xl' color="white">specialized in React.</Text>
-                    
+                    <div id="contact-button">
+                    <Button>Contact Me</Button>
+                    </div>
                 </VStack>
             </div>
         </div>

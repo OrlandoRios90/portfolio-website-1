@@ -1,34 +1,24 @@
 .nav-bar {
     display: flex;
     justify-content: flex-end;
-    padding-right: 10%;
+    padding-right: 8%;
 }
 
 .landing-info2 {
     position: absolute;
-    top: 20rem;
+    top: 17rem;
     right: 9%;
 }
 
-.avatar {
-    position: absolute;
-    top: 5rem;
-    left: 15%;
+#contact-button {
+    padding-top: 15px;
 }
-
-.avatar2 {
-    position: absolute;
-    top: 50px;
-    right: 50px;
-}
-
 
 .skills-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 3%;
     padding-bottom: 3%;
-    
     justify-items: center;
     align-items: center;
 }
@@ -39,14 +29,13 @@
         grid-template-columns: 1fr;
         padding-top: 3%;
         padding-bottom: 3%;
-    
-    justify-items: center;
-    align-items: center;
+        justify-items: center;
+        align-items: center;
     }
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .landing-info2 {
         position: absolute;
         top: 5rem;
@@ -54,12 +43,10 @@
     }
 }
 
-
 #skills-card {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 
 #css-title {
     font-size: 2.5rem;
@@ -73,8 +60,6 @@
         cursor .2s step-end infinite alternate;
         animation-iteration-count: infinite;
 }
-
-
 
 #skills-title-section {
     padding-top: 20px;
