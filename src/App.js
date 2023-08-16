@@ -1,8 +1,6 @@
-import { ChakraProvider } from '@chakra-ui/react';
-import { Nav } from './components/Nav';
-import { Nav2 } from './components/Nav2';
 import './App.css';
-import { LandingSection } from './components/LandingSection';
+import { ChakraProvider } from '@chakra-ui/react';
+import { Nav2 } from './components/Nav2';
 import { LandingSection2 } from './components/LandingSection2';
 import { SkillsSection } from './components/SkillsSection';
 
