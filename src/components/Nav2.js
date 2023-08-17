@@ -17,7 +17,7 @@ export const Nav2 = () => {
     ]
 
     const socialUrls = socials.map((socialObject, index) => {
-        return <a href={socialObject.url} key={index} target="_blank"><FontAwesomeIcon icon={socialObject.icon} size="2x" /></a>
+        return <a href={socialObject.url} key={index} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={socialObject.icon} size="2x" /></a>
         }
     )
     
@@ -57,7 +57,7 @@ export const Nav2 = () => {
         transitionProperty="transform"
         transitionDuration=".3s"
         transitionTimingFunction="ease-in-out"
-        backgroundColor={window.scrollY == 0 ? false : "#18181b"}
+        backgroundColor={window.scrollY === 0 ? false : "#18181b"}
         ref= {headerRef}
         >
             <div className="nav-bar">

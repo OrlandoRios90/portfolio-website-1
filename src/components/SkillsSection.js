@@ -44,9 +44,7 @@ export const SkillsSection = () => {
     
 
       return (
-        <Box
-        bg= "#faf8f7"
-        >
+        <Box bg= "#faf8f7">
         <Heading as="h1" id="skills-title-section">
         Featured Skills
         </Heading>

@@ -2,12 +2,10 @@ import { VStack, Heading, Text, Button } from "@chakra-ui/react"
 
 export const LandingSection2 = () => {
 
-    
-
     return (
         
         <div class="landing-banner">
-            <img src="https://i.imgur.com/kU5F5RB.jpg" id="landing-image"></img>
+            <img src="https://i.imgur.com/kU5F5RB.jpg" id="landing-image" alt=""></img>
             
                 <div class="avatar2">
                 </div>
@@ -18,13 +16,12 @@ export const LandingSection2 = () => {
                     <Text fontSize='xl' color="white">I'm a front-end developer</Text>
                     <Text fontSize='xl' color="white">specialized in React.</Text>
                     <div id="contact-button">
-                    <Button>Contact Me</Button>
+                        <Button>
+                        <a href="#ContactMe">Contact Me</a>
+                        </Button>
                     </div>
                 </VStack>
             </div>
         </div>
-
-                  
-        
     )
 }

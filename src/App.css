@@ -61,7 +61,7 @@
         animation-iteration-count: infinite;
 }
 
-#skills-title-section {
+#skills-title-section, #contact-me-title {
     padding-top: 20px;
     text-align: center;
 }
